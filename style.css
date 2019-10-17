@@ -24,6 +24,12 @@ header > nav > h1 {
 }
 
 
+
+a {
+    text-decoration: none;
+    color: rgb(87, 92, 151);
+}
+
 /* Buttons at the top */
 header > nav > ul > li {
     display: inline-block;
@@ -34,6 +40,8 @@ header > nav > ul > li {
     text-align: center;
     border-radius: 25px;
     margin-top: 40px;
+
+    
 
 }
 
