@@ -49,3 +49,7 @@ width: 300px;
 margin-top: 0px;
 }
 
+body > main > section > article > figure > p {
+    float: right;
+    text-align: left;
+}
