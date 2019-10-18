@@ -17,7 +17,7 @@ color: rgb(24, 19, 51);
 
 /* HEADER SLOGAN */
 header > nav > h1 {
-    margin-top: 10px;
+    margin-top: 0px;
     margin-left: 20px;
     text-align: left;
     float: left;
@@ -54,7 +54,7 @@ body > main {
 /* 3 IMAGES */
 body > main > section > article > figure > img {
 width: 300px;
-margin-top: 0px;
+margin-top: 20px;
 }
 
 body > main > section > article > figure > p {
