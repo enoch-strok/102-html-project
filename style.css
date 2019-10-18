@@ -22,12 +22,12 @@ body > header > nav > ul > h1 {
 }
 
 /* HEADER SLOGAN */
-body > header > nav > ul {
+body > header > nav > ul > p {
 
     text-decoration-style: solid;
+    width: 10px;
+
 }
-
-
 a {
     text-decoration: none;
     color: rgb(87, 92, 151);
