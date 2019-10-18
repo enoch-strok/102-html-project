@@ -61,3 +61,13 @@ function askName() {
       
         return '<h3>' + hourNow + '</h3>' + dateNow + '<br></br>';
       }
+
+    
+    //Pop Up
+    function whileDemo(){
+        var answer = prompt('Do you enjoy our site?');
+      
+        while (answer !== 'yes'){
+          var answer = prompt('These are not the droids your looking for... You will love this site... type, yes, and the force will release you..');
+        }
+      }
