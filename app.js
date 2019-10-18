@@ -70,4 +70,5 @@ function askName() {
         while (answer !== 'yes'){
           var answer = prompt('These are not the droids your looking for... You will love this site... type, yes, and the force will release you..');
         }
+        return '';
       }
