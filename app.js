@@ -52,3 +52,12 @@ function askName() {
     }
     return '<h3>' + greetingTwo + '</h3>';
   }
+
+    // Current Time & Date
+    function currentTime() {
+        var today = new Date();
+        var hourNow = today.toLocaleTimeString();
+        var dateNow = today.toDateString();
+      
+        return '<h3>' + hourNow + '</h3>' + dateNow + '<br></br>';
+      }
